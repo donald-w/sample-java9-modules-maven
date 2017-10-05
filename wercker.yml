@@ -1,7 +1,11 @@
 box: openjdk:9
 
 build:
-  steps:
+steps:
+    - script:
+        name: dumpjavaversion
+        code: |
+          java -version
     - script:
         name: setupssl
         code: |

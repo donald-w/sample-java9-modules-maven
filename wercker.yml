@@ -1,4 +1,4 @@
-box: java
+box: openjdk:9
 
 build:
   steps:

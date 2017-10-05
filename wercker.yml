@@ -5,7 +5,7 @@ build:
     - script:
         name: setupssl
         code: |
-          apt-get install -y java-cacerts
+          apt-get install -y ca-certificates-java
     - script:
         name: mvn
         code: |

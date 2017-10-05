@@ -1,0 +1,10 @@
+# IntelliJ
+*.iml
+*.iws
+.idea
+
+out/
+target/
+
+# virtual machine crash logs
+hs_err_pid*

@@ -1,0 +1,8 @@
+box: java
+
+build:
+  steps:
+    - script:
+        name: mvn
+        code: |
+          chmod +x mvnw; ./mvnw clean install

@@ -9,7 +9,7 @@ build:
     - script:
         name: addssl
         code: |
-          apt-get install ca-certificates-java
+          apt-get update; apt-get install ca-certificates-java
     - script:
         name: mvn
         code: |

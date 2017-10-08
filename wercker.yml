@@ -3,6 +3,14 @@ box: openjdk:9
 build:
   steps:
     - script:
+        name: removessl
+        code: |
+          dpkg --purge --force-depends ca-certificates-java
+    - script:
+        name: addssl
+        code: |
+          apt-get install ca-certificates-java
+    - script:
         name: mvn
         code: |
           chmod +x mvnw; ./mvnw clean install

@@ -3,6 +3,8 @@
 
 ## Originally Based on [ConSol/java9-modules-maven-junit-example]
 
+[![wercker status](https://app.wercker.com/status/dc456049b9fa96a5bcb8b40fc06fff69/m/master "wercker status")](https://app.wercker.com/project/byKey/dc456049b9fa96a5bcb8b40fc06fff69)
+
 Read more in their blog post: [Getting Started with Java 9 Modules]
 
 Demonstrates a few things:

@@ -1,15 +1,15 @@
-box: openjdk:9
+box: openjdk:9-jdk-slim
 
 build:
   steps:
-    - script:
-        name: removessl
-        code: |
-          dpkg --purge --force-depends ca-certificates-java
-    - script:
-        name: addssl
-        code: |
-          apt-get update; apt-get install ca-certificates-java
+#    - script:
+#        name: removessl
+#        code: |
+#          dpkg --purge --force-depends ca-certificates-java
+#    - script:
+#        name: addssl
+#        code: |
+#          apt-get update; apt-get install ca-certificates-java
     - script:
         name: mvn
         code: |

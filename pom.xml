@@ -17,7 +17,7 @@
 
     <modules>
         <module>jigsaw</module>
-        <!--<module>jigsaw-jlink</module>-->
+        <module>jigsaw-jlink</module>
         <module>jigsaw-service</module>
         <module>jigsaw-animals-service</module>
         <module>jigsaw-numbers-service</module>
@@ -25,6 +25,20 @@
 
     <build>
         <plugins>
+            <plugin>
+                <!-- The jlink plugin is alpha.  It only seems to work if, for example, jacoco plugin runs first and force resolves the artifacts -->
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.7.9</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -35,6 +49,14 @@
                     <target>${java.version}</target>
                     <showWarnings>true</showWarnings>
                     <showDeprecation>true</showDeprecation>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-jlink-plugin</artifactId>
+                <version>3.0.0-alpha-1</version>
+                <extensions>true</extensions>
+                <configuration>
                 </configuration>
             </plugin>
         </plugins>

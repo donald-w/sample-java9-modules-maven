@@ -17,6 +17,7 @@
 
     <modules>
         <module>jigsaw</module>
+        <!--<module>jigsaw-jlink</module>-->
         <module>jigsaw-service</module>
         <module>jigsaw-animals-service</module>
         <module>jigsaw-numbers-service</module>

@@ -1,6 +1,6 @@
 import com.donaldw.jigsaw.animals.service.AnimalsService;
 
-module com.donaldw.jigsaw.workshop.service {
+module com.donaldw.jigsaw.animals.service {
 
     requires com.donaldw.jigsaw.service;
 

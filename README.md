@@ -1,5 +1,5 @@
 
-# A canonical maven multi module project using Java 9 / Jigsaw
+# A sample maven multi module project using Java 9 / Jigsaw
 
 ## Originally Based on [ConSol/java9-modules-maven-junit-example]
 

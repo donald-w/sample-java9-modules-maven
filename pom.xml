@@ -16,7 +16,7 @@
     </properties>
 
     <modules>
-        <module>jigsaw</module>
+        <module>jigsaw-app</module>
         <module>jigsaw-jlink</module>
         <module>jigsaw-service</module>
         <module>jigsaw-animals-service</module>

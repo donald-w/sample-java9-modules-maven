@@ -11,6 +11,7 @@
     </parent>
 
     <artifactId>jigsaw-jlink</artifactId>
+    <name>sample-java9-modules :: jigsaw-jlink</name>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jlink</packaging>
 

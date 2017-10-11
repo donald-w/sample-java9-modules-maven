@@ -11,6 +11,7 @@
     </parent>
 
     <artifactId>jigsaw-numbers-service</artifactId>
+    <name>sample-java9-modules :: jigsaw-numbers-service</name>
     <version>0.0.1-SNAPSHOT</version>
 
     <build>

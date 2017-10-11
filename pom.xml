@@ -26,14 +26,16 @@
     <build>
         <plugins>
             <plugin>
-                <!-- The jlink plugin is alpha.  It only seems to work if, for example, jacoco plugin runs first and force resolves the artifacts -->
-                <groupId>org.jacoco</groupId>
-                <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.7.9</version>
+                <!-- The jlink plugin is alpha. -->
+                <!-- It only seems to work if the artifacts are resolved by the time jlink runs -->
+                <!-- One clean-ish way to achieve that is to use the maven-dependency-plugin to build the classpath  -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.0.2</version>
                 <executions>
                     <execution>
                         <goals>
-                            <goal>prepare-agent</goal>
+                            <goal>build-classpath</goal>
                         </goals>
                     </execution>
                 </executions>

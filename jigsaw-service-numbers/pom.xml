@@ -10,37 +10,24 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jigsaw-jlink</artifactId>
-    <name>sample-java9-modules :: jigsaw-jlink</name>
+    <artifactId>jigsaw-service-numbers</artifactId>
+    <name>sample-java9-modules :: jigsaw-service-numbers</name>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jlink</packaging>
 
     <build>
-        <plugins>
-
-        </plugins>
     </build>
 
     <dependencies>
-        <dependency>
-            <groupId>com.donaldw</groupId>
-            <artifactId>jigsaw-app</artifactId>
-            <version>${project.version}</version>
-        </dependency>
         <dependency>
             <groupId>com.donaldw</groupId>
             <artifactId>jigsaw-service</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.donaldw</groupId>
-            <artifactId>jigsaw-service-numbers</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.donaldw</groupId>
-            <artifactId>jigsaw-service-animals</artifactId>
-            <version>${project.version}</version>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

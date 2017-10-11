@@ -19,8 +19,8 @@
         <module>jigsaw-app</module>
         <module>jigsaw-jlink</module>
         <module>jigsaw-service</module>
-        <module>jigsaw-animals-service</module>
-        <module>jigsaw-numbers-service</module>
+        <module>jigsaw-service-animals</module>
+        <module>jigsaw-service-numbers</module>
     </modules>
 
     <build>

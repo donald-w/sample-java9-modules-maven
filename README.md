@@ -10,6 +10,7 @@ Read more in their blog post: [Getting Started with Java 9 Modules]
 Demonstrates a few things:
 * How to invoke test module internals using JUnit
 * How to use `ServiceLoader` to discover services provided by modules
+* How to use jlink to build a custom runtime using maven (See jigsaw-jlink project)
 
 ## Build / Run
 

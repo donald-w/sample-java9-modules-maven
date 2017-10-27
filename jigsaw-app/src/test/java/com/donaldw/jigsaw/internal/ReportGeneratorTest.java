@@ -10,6 +10,6 @@ public class ReportGeneratorTest {
     @Test
     public void formatList() {
         ReportGenerator service = new ReportGenerator();
-        Assert.assertEquals("(1234)\n(abcd)", service.generatorReport(List.of("1234", "abcd")));
+        Assert.assertEquals("(1234)\n(java)", service.generatorReport(List.of("1234", "java")));
     }
 }

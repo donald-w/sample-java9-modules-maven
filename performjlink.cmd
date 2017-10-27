@@ -1,7 +1,7 @@
 jlink --module-path ^
 %JAVA_HOME%\jmods;^
 jigsaw-service\target\jigsaw-service-0.0.1-SNAPSHOT.jar;^
-jigsaw-app\target\jigsaw-appp-0.0.1-SNAPSHOT.jar;^
+jigsaw-app\target\jigsaw-app-0.0.1-SNAPSHOT.jar;^
 jigsaw-service-animals\target\jigsaw-service-animals-0.0.1-SNAPSHOT.jar;^
 jigsaw-service-numbers\target\jigsaw-service-numbers-0.0.1-SNAPSHOT.jar ^
 --add-modules ^

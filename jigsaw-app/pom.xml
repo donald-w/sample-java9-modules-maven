@@ -15,23 +15,8 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <build>
-        <!--<plugins>-->
-        <!--<plugin>-->
-        <!--&lt;!&ndash; Build an executable JAR &ndash;&gt;-->
-        <!--<groupId>org.apache.maven.plugins</groupId>-->
-        <!--<artifactId>maven-jar-plugin</artifactId>-->
-        <!--<version>3.0.2</version>-->
-        <!--<configuration>-->
-        <!--<archive>-->
-        <!--<manifest>-->
-        <!--<addClasspath>true</addClasspath>-->
-        <!--<classpathPrefix>lib/</classpathPrefix>-->
-        <!--<mainClass>com.donaldw.jigsaw.Jigsaw</mainClass>-->
-        <!--</manifest>-->
-        <!--</archive>-->
-        <!--</configuration>-->
-        <!--</plugin>-->
-        <!--</plugins>-->
+        <plugins>
+        </plugins>
     </build>
 
     <dependencies>

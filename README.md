@@ -22,10 +22,6 @@ Demonstrates a few things:
 * `./mvnw clean install`
 * `./run.sh`
 
-## TODO
-
-* Figure out an alternative to run.cmd / run.sh !
-* Set ModuleMainClass directly when the maven-jar-plugin supports it: https://issues.apache.org/jira/browse/MJAR-238
 
 [Getting Started with Java 9 Modules]: https://labs.consol.de/development/2017/02/13/getting-started-with-java9-modules.html
 [ConSol/java9-modules-maven-junit-example]: https://github.com/ConSol/java9-modules-maven-junit-example/

@@ -59,6 +59,8 @@
                 <version>3.0.0-alpha-1</version>
                 <extensions>true</extensions>
                 <configuration>
+                    <noHeaderFiles>true</noHeaderFiles>
+                    <noManPages>true</noManPages>
                 </configuration>
             </plugin>
         </plugins>

@@ -1,6 +1,5 @@
 package com.donaldw.jigsaw.service.numbers;
 
-import com.donaldw.jigsaw.service.numbers.NumbersService;
 import org.junit.Assert;
 import org.junit.Test;
 

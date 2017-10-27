@@ -1,6 +1,5 @@
 package com.donaldw.jigsaw.service.animals;
 
-import com.donaldw.jigsaw.service.animals.AnimalsService;
 import org.junit.Assert;
 import org.junit.Test;
 

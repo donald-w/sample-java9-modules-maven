@@ -12,7 +12,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>9</java.version>
+        <java.version>10</java.version>
     </properties>
 
     <modules>
@@ -27,11 +27,12 @@
         <plugins>
             <plugin>
                 <!-- The jlink plugin is alpha. -->
-                <!-- It only seems to work if the artifacts are resolved by the time jlink runs -->
+                <!-- It only seems to
+                 work if the artifacts are resolved by the time jlink runs -->
                 <!-- One clean-ish way to achieve that is to use the maven-dependency-plugin to build the classpath  -->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
-                <version>3.0.2</version>
+                <version>3.1.0</version>
                 <executions>
                     <execution>
                         <goals>

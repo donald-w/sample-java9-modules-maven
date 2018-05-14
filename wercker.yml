@@ -1,4 +1,4 @@
-box: openjdk:9-jdk-slim
+box: openjdk:10-jdk
 
 build:
   steps:

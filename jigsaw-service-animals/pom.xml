@@ -6,12 +6,12 @@
 
     <parent>
         <groupId>com.donaldw</groupId>
-        <artifactId>sample-java9-modules-maven</artifactId>
+        <artifactId>sample-java-modules-maven</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>jigsaw-service-animals</artifactId>
-    <name>sample-java9-modules :: jigsaw-service-animals</name>
+    <name>sample-java-modules :: jigsaw-service-animals</name>
     <version>0.0.1-SNAPSHOT</version>
 
     <build>

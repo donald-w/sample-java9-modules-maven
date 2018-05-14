@@ -6,12 +6,12 @@
 
     <parent>
         <groupId>com.donaldw</groupId>
-        <artifactId>sample-java9-modules-maven</artifactId>
+        <artifactId>sample-java-modules-maven</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>jigsaw-jlink</artifactId>
-    <name>sample-java9-modules :: jigsaw-jlink</name>
+    <name>sample-java-modules :: jigsaw-jlink</name>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jlink</packaging>
 
